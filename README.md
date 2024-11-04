@@ -35,5 +35,29 @@ This project is an implementation of the YOLO (You Only Look Once) object detect
 
 ## How to Run the Project
 1. **Training the Model**
-   ```bash
+   ```
    python yolo_train.py
+   ```
+
+2. **Running Inference**
+   ```
+   python yolo_inference.py --input <input_image_path>
+   ```
+
+## Requirements
+
+- Python 3.x
+- PyTorch
+- NumPy
+- Matplotlib
+- Additional requirements can be found in `requirements.txt`.
+
+## Usage
+
+Customize the dataset and modify configurations as needed in the `datasets/yolo_dataset.py` script. The output from training and predictions can be visualized using the provided utility scripts.
+
+## Contact
+
+For any questions or issues, please feel free to reach out or contribute to this project.
+
+
